@@ -10,4 +10,5 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+# oh-my-zsh plugins (autocompletion, etc.)
+plugins=(git git-flow brew history node npm kubectl)
